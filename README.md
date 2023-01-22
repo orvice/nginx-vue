@@ -7,5 +7,5 @@ nginx docker for vue project
 ```
 FROM orvice/nginx-vue
 
-ADD /path/to/html /usr/share/nginx/html
+COPY /path/to/html /usr/share/nginx/html
 ```
