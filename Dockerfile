@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginxinc/nginx-unprivileged 
 
 LABEL MAINTAINER "orvice orvice@orx.me"
 
